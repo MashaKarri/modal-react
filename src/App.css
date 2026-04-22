@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fef2e4;
+}
+
+.open-modal {
+  padding: 12px 24px;
+  font-family: "LXGW WenKai TC", cursive;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #805a3b;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.open-modal:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
