@@ -1,0 +1,53 @@
+.sum-calculator {
+  margin-top: 40px;
+  padding: 20px;
+  width: 320px;
+  max-width: 90%;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  font-family: "LXGW WenKai TC", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.sum-title {
+  margin: 0;
+  font-size: 18px;
+  color: #6c3d16;
+}
+
+.sum-value {
+  font-size: 15px;
+  margin: 0;
+}
+
+.sum-result {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6c3d16;
+}
+
+.sum-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.sum-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #805a3b;
+  color: #fff;
+  font-family: "LXGW WenKai TC", cursive;
+  font-size: 13px;
+  transition: box-shadow 0.2s ease;
+}
+
+.sum-btn:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
